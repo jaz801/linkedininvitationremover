@@ -6,7 +6,7 @@ Copy Paste This Script
 
 javascript:!function(){let a=document.getElementsByClassName("invitation-card__action-btn artdeco-button artdeco-button--muted artdeco-button--3 artdeco-button--tertiary ember-view");var c=a.length-1,b=function(){c>0&&(setTimeout(function(){a[c].click()},400),setTimeout(function(){document.getElementsByClassName("artdeco-modal__confirm-dialog-btn artdeco-button artdeco-button--2 artdeco-button--primary ember-view")[0].click()},2500),setTimeout(function(){console.log("start Next"),c-=1,b()},4500))};b()}()
 
-You need to remove last invitation by hand. 
+You need to remove the last invitation by hand. 
 
 
 
